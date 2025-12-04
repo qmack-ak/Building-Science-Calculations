@@ -1,0 +1,35 @@
+Energy Use Intensity - EUI
+Energy consumption per unit area of conditioned space (ft2). 
+required info: consumption data, conditioned area square footage
+
+units: electrical (kWh)
+multiplier: 3.412 kWh -> kBtu
+Consumption in kWh is converted to kilo-British Thermal Units (kBtu) and divided by the square footage (ft2) of the conditioned area. 
+formula: EUI = (kWh * 3.412) / area(ft2)
+
+units: natural gas (ccf)
+multiplier: 102.6 ccf -> kBtu
+Consumption in ccf is converted to kilo-British Thermal Units (kBtu) and divided by the square footage (ft2) of the conditioned area.
+formula: EUI = (ccf * 102.6) / area(ft2)
+
+units: fuel oil #1 (gal)
+multiplier: 139 gal -> kBtu
+Consumption in gallons is converted to kilo-British Thermal Units (kBtu) and divided by the square footage (ft2) of the conditioned area.
+formula: EUI = (gal * 139) / area(ft2)
+
+units: fuel oil #2 (gal)
+multiplier: 138 gal -> kBtu
+Consumption in gallons is converted to kilo-British Thermal Units (kBtu) and divided by the square footage (ft2) of the conditioned area.
+formula: EUI = (gal * 138) / area(ft2)
+
+special considerations: when calculating the combined EUI of multiple units/buildings you don't sum the individual EUIs, instead use one of the formulas below (more units may be added following the same format)
+
+	multi unit option 1:
+	formula: EUI = ((unit1 consumption + unit 2 consumption) * COMMON multiplier ) / (unit1 area + unit2 area)  
+	
+	multi unit option 2 (area weighted average):
+	formula: EUI = (unit1 eui * unit1 area) + (unit2 eui * unit2 area) / (unit1 area + unit2 area)
+
+
+info: https://portfoliomanager.energystar.gov/pdf/reference/Thermal%20Conversions.pdf
+notes: multipliers are derived directly from the energystar portfolio manager linked above
