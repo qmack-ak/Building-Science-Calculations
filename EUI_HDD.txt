@@ -1,0 +1,12 @@
+Energy Use Intensity per Heating Degree Day - EUI/HDDxx
+Energy use per square foot (ft2) of building space normalized by the daily heating requirement
+required info: consumption data, conditioned area square footage, heating degree day information for location
+
+units: electrical (kWh)
+multiplier(s): 3.412 kWh -> kBtu, 1000 kBtu -> Btu
+Consumption in kWh is converted to kilo-British Thermal Units (kBtu) then British Thermal Units (Btu), and divided by the (total square footage (ft2) of the conditioned area divided by the HDDxx for the period)
+formula: EUI/HDDxx (Btu/ft2/HDDxx) = (kWh * 3.412) * 1000 / (area(ft2) / HDDxx)
+
+special considerations: when calculating the combined EUI/HDDxx of multiple units/buildings you don't sum the individual EUIs, instead use the formula below (more units may be added following the same format)
+	multi unit option 1: 
+	formula: (unit1 consumption + unit2 consumption) * COMMON multiplier * 1000 / ((unit1 area + unit2 area) * HDDxx)
