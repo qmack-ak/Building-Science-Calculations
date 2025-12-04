@@ -1,0 +1,5 @@
+Energy Cost Intensity - ECI 
+The annual energy cost per square foot ($/ft2) of conditioned space. 
+required info: cost information (per unit of consumption or monthly totals without service charges included), conditioned area square footage
+
+formula: ECI ($/ft2/year) = energy cost / area(ft2)
