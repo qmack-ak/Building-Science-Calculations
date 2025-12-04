@@ -8,5 +8,5 @@ Consumption in kWh is converted to kilo-British Thermal Units (kBtu) then Britis
 formula: EUI/HDDxx (Btu/ft2/HDDxx) = (kWh * 3.412) * 1000 / (area(ft2) / HDDxx)
 
 special considerations: when calculating the combined EUI/HDDxx of multiple units/buildings you don't sum the individual EUIs, instead use the formula below (more units may be added following the same format)
-	multi unit option 1: 
-	formula: (unit1 consumption + unit2 consumption) * COMMON multiplier * 1000 / ((unit1 area + unit2 area) * HDDxx)
+	multi unit option 1 (raw values): 
+	formula: EUI/HDDxx = (unit1 consumption + unit2 consumption) * COMMON multiplier * 1000 / ((unit1 area + unit2 area) * HDDxx)
