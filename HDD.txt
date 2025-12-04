@@ -1,0 +1,9 @@
+Heating Degree Day - HDD, HDD65 or HDDxx
+Cumulative difference between the mean daily temperature and a set temperature baseline, commonly 65°F. 
+A Heating Degree Day implies colder outdoor temperatures are likely to influence the demand for indoor heating 
+required info: temperature and/or HDD specific data
+
+formula: HDD = base temperature - daily mean temperature (ex. 65F - 20F = 45HDD)
+
+info: https://www.degreedays.net/
+publicly available data: https://www.weather.gov/wrh/climate
