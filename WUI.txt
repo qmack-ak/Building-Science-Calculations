@@ -1,0 +1,7 @@
+Water Use Intensity - WUI
+Water consumption per unit area of conditioned space (ft2).
+required info: consumption data, conditioned area square footage
+units: gal/ft2
+formula: gallons consumed / area(ft2)
+
+info: https://www.energystar.gov/sites/default/files/tools/National%20WUI%20Technical%20Reference%202023_0719b.pdf
