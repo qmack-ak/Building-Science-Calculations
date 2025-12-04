@@ -1,0 +1,9 @@
+Cooling Degree Day - CDD, CDD65 or CDDxx
+Cumulative difference between the mean daily temperature and a set temperature baseline, commonly 65°F. 
+A Cooling Degree Day implies warmer outdoor temperatures are likely to influence the demand for indoor cooling 
+required info: temperature and/or CDD specific data
+
+formula: CDD = daily mean temperature - base temperature (ex. 90F - 65F = 25CDD)
+
+info: https://www.degreedays.net/
+publicly available data: https://www.weather.gov/wrh/climate
